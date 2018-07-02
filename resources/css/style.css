@@ -86,7 +86,7 @@ img {
 
 .info{
   display: flex;
-  padding-bottom: 2rem; 
+  padding-bottom: 2rem;
 }
 
 .practicetext h1{
@@ -127,7 +127,6 @@ img {
 
 .rightside img{
   width: 100%;
-
 }
 
 .rightside .blocktext{
@@ -148,5 +147,50 @@ img {
 }
 
 .blockgray{
-  background-color: rgb(208 211 216)
+  background-color: rgb(208 211 216);
+}
+
+/* Start Learning section */
+
+.startlearning{
+  text-align: center;
+  background-color: rgb(208 211 216);
+  padding-bottom: 1rem;
+}
+
+.startlearning h1{
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.course{
+  width: 25%;
+  background-color: white;
+  margin: 1rem;
+  text-align: left;
+}
+
+.course h4{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-bottom: 0.5rem;
+}
+
+.course img{
+  width: 100%;
+}
+
+.course .coursetxt{
+  padding: 1rem;
+}
+
+.course p{
+  padding-top: 0.5rem;
+}
+
+.line {
+  display: flex;
+  justify-content: center;
 }
