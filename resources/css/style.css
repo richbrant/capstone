@@ -1,6 +1,7 @@
 body{
 font-family: helvetica, sans-serif;
 color: gray;
+line-height: 1.4;
 }
 
 /* Header */
@@ -106,7 +107,7 @@ img {
 
 /* Info section right side */
 
-.rightside{
+.rightsideinfo{
   width: 40%;
   padding-top: 2rem;
   display: flex;
@@ -120,16 +121,16 @@ img {
   padding: 1rem 0rem 1rem 0rem;
 }
 
-.rightside .pic{
+.rightsideinfo .pic{
   width: 35%;
   padding-left: 1rem;
 }
 
-.rightside img{
+.rightsideinfo img{
   width: 100%;
 }
 
-.rightside .blocktext{
+.rightsideinfo .blocktext{
   width: 65%;
   display: flex;
   flex-direction: column;
@@ -137,12 +138,12 @@ img {
   justify-content: center;
 }
 
-.rightside h4{
+.rightsideinfo h4{
   font-size: 1.5rem;
   font-weight: bold;
 }
 
-.rightside span{
+.rightsideinfo span{
   padding: 0.5rem 0rem 0.5rem 0rem;
 }
 
@@ -193,4 +194,84 @@ img {
 .line {
   display: flex;
   justify-content: center;
+}
+
+/* Thesis Section */
+
+.thesis{
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.thesiscontainer{
+  display: flex;
+}
+
+.thesis h1{
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.video{
+  width: 60%;
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  text-align: left;
+}
+
+.video video{
+  width: 100%;
+}
+
+.video h2{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-top: 1.5rem;
+}
+
+.video p{
+  padding-top: 0.5rem;
+}
+
+.rightsidevideo{
+  width: 40%;
+  padding-top: 2rem;
+  text-align: left;
+}
+
+.block, .blockgray{
+  display: flex;
+  width: 100%;
+  padding: 1rem 0rem 1rem 0rem;
+}
+
+.rightsidevideo .pic{
+  width: 35%;
+  padding-left: 1rem;
+}
+
+.rightsidevideo img{
+  width: 100%;
+}
+
+.rightsidevideo .blocktext{
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+  justify-content: center;
+}
+
+.rightsidevideo h4{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.rightsidevideo span{
+  padding: 0.5rem 0rem 0.5rem 0rem;
+}
+
+.blockgray{
+  background-color: rgb(208 211 216);
 }
