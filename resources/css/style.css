@@ -1,0 +1,152 @@
+body{
+font-family: helvetica, sans-serif;
+color: gray;
+}
+
+/* Header */
+
+header b{
+  font-weight: bold;
+  color: black;
+}
+
+.header{
+  display:flex;
+  justify-content: space-between;
+}
+
+.headercontainer{
+  display: flex;
+  align-items: center;
+  font-size: 1.25rem;
+}
+
+header img{
+  padding-left: 1.5rem;
+}
+
+header li{
+  padding: 0rem 0.5rem 0rem 0.5rem;
+  font-size: 1rem;
+}
+
+header a{
+  padding: 0rem 1.5rem 0rem 0.5rem;
+  font-size: 1rem;
+}
+
+/* Learn Something section */
+
+.learn {
+  display: flex;
+  align-items: center;
+  background-color: rgb(208 211 216)
+}
+
+.img{
+  width: 60%;
+  padding: 2rem 1.5rem;
+}
+
+.learn .text{
+  width: 25%;
+}
+
+img {
+  width: 100%;
+}
+
+.learn h1{
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+.learn p{
+  font-size: 1.5rem;
+  padding: 1rem 0rem 2rem 0rem;
+}
+
+.btn{
+  background-color: rgb(98 103 112);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0rem 1rem 0rem;
+  border-radius: 5px;
+}
+
+.btn span{
+  padding: 0.5rem;
+  color: white;
+}
+
+/* Info section left side */
+
+
+.info{
+  display: flex;
+  padding-bottom: 2rem; 
+}
+
+.practicetext h1{
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top: 2rem;
+}
+
+.practicetext p{
+  font-size: 1.25rem;
+  padding: 1.5rem 0rem 1.5rem 0rem;
+}
+
+.practicetext span{
+  font-size: 1rem;
+}
+
+/* Info section right side */
+
+.rightside{
+  width: 40%;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.block, .blockgray{
+  display: flex;
+  width: 100%;
+  padding: 1rem 0rem 1rem 0rem;
+}
+
+.rightside .pic{
+  width: 35%;
+  padding-left: 1rem;
+}
+
+.rightside img{
+  width: 100%;
+
+}
+
+.rightside .blocktext{
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+  justify-content: center;
+}
+
+.rightside h4{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.rightside span{
+  padding: 0.5rem 0rem 0.5rem 0rem;
+}
+
+.blockgray{
+  background-color: rgb(208 211 216)
+}
