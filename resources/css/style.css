@@ -1,10 +1,16 @@
 body{
-font-family: helvetica, sans-serif;
+font-family: 'Montserrat', sans-serif;
 color: gray;
 line-height: 1.4;
 }
 
+a{
+  text-decoration: none;
+  color: rgb(83 164 193);
+}
+
 /* Header */
+
 
 header b{
   font-weight: bold;
@@ -14,6 +20,7 @@ header b{
 .header{
   display:flex;
   justify-content: space-between;
+  height: 4rem;
 }
 
 .headercontainer{
@@ -41,7 +48,7 @@ header a{
 .learn {
   display: flex;
   align-items: center;
-  background-color: rgb(208 211 216)
+  background-color: rgb(208 211 216);
 }
 
 .img{
@@ -77,9 +84,15 @@ img {
   border-radius: 5px;
 }
 
-.btn span{
+.btn:hover{
+  background-color: rgb(83 164 193);
+  transition: background-color 0.75s ease-in;
+}
+
+.btn a{
   padding: 0.5rem;
   color: white;
+  text-decoration: none;
 }
 
 /* Info section left side */
@@ -93,7 +106,6 @@ img {
 .practicetext h1{
   font-size: 2rem;
   font-weight: bold;
-  padding-top: 2rem;
 }
 
 .practicetext p{
@@ -105,14 +117,14 @@ img {
   font-size: 1rem;
 }
 
-/* Info section right side */
+/* Info section right side - note .block .blockgray used in Thesis section */
 
 .rightsideinfo{
   width: 40%;
-  padding-top: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding-top: 1rem;
 }
 
 .block, .blockgray{
@@ -121,16 +133,16 @@ img {
   padding: 1rem 0rem 1rem 0rem;
 }
 
-.rightsideinfo .pic{
+.block .pic, .blockgray .pic{
   width: 35%;
   padding-left: 1rem;
 }
 
-.rightsideinfo img{
+.block img, .blockgray img{
   width: 100%;
 }
 
-.rightsideinfo .blocktext{
+.block .blocktext, .blockgray .blocktext{
   width: 65%;
   display: flex;
   flex-direction: column;
@@ -138,12 +150,12 @@ img {
   justify-content: center;
 }
 
-.rightsideinfo h4{
+.block h4, .blockgray h4{
   font-size: 1.5rem;
   font-weight: bold;
 }
 
-.rightsideinfo span{
+.block span, .blockgray span{
   padding: 0.5rem 0rem 0.5rem 0rem;
 }
 
@@ -240,38 +252,25 @@ img {
   text-align: left;
 }
 
-.block, .blockgray{
+/* Footer section */
+
+footer{
   display: flex;
-  width: 100%;
-  padding: 1rem 0rem 1rem 0rem;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  border-top: 2px solid rgb(208 211 216);
 }
 
-.rightsidevideo .pic{
-  width: 35%;
-  padding-left: 1rem;
+footer span{
+  padding-left: 1.5rem;
 }
 
-.rightsidevideo img{
-  width: 100%;
+footer ul{
+  padding-right: 1rem;
 }
 
-.rightsidevideo .blocktext{
-  width: 65%;
-  display: flex;
-  flex-direction: column;
-  padding-left: 1rem;
-  justify-content: center;
-}
-
-.rightsidevideo h4{
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.rightsidevideo span{
-  padding: 0.5rem 0rem 0.5rem 0rem;
-}
-
-.blockgray{
-  background-color: rgb(208 211 216);
+footer a{
+  padding: 0rem 0.5rem;
 }
