@@ -43,6 +43,27 @@ header a{
   font-size: 1rem;
 }
 
+
+
+@media only screen and (min-width: 875px) {
+  .mobileheader{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 875px){
+  .headercontainer{
+    display: none;
+  }
+
+  .mobileheader{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+}
+
 /* Learn Something section */
 
 .learn {
@@ -70,7 +91,7 @@ img {
 }
 
 .learn h1{
-  font-size: 2.5rem;
+  font-size: 2.25rem;
   font-weight: bold;
   padding-bottom: 1rem;
 }
@@ -100,6 +121,13 @@ img {
   color: white;
   text-decoration: none;
 }
+
+@media only screen and (max-width: 875px){
+  
+
+}
+
+
 
 /* Info section left side */
 
