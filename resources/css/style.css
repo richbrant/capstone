@@ -1,6 +1,6 @@
 body{
 font-family: 'Montserrat', sans-serif;
-color: gray;
+color: rgb(92 97 99);
 line-height: 1.4;
 }
 
@@ -57,7 +57,12 @@ header a{
 }
 
 .learn .text{
-  width: 25%;
+  width: 40%;
+}
+
+.learntext{
+  width: 80%;
+  padding-left: 1rem;
 }
 
 img {
@@ -80,8 +85,9 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem 0rem 1rem 0rem;
+  padding: 1rem 0rem 1rem 1rem;
   border-radius: 5px;
+  width: 80%;
 }
 
 .btn:hover{
