@@ -1,7 +1,7 @@
 body{
 font-family: 'Montserrat', sans-serif;
 color: rgb(92 97 99);
-line-height: 1.4;
+line-height: 1.25;
 }
 
 a{
@@ -45,13 +45,13 @@ header a{
 
 
 
-@media only screen and (min-width: 875px) {
+@media only screen and (min-width: 768px) {
   .mobileheader{
     display: none;
   }
 }
 
-@media only screen and (max-width: 875px){
+@media only screen and (max-width: 768px){
   .headercontainer{
     display: none;
   }
@@ -80,6 +80,7 @@ header a{
   display: flex;
   align-items: center;
   background-color: rgb(208 211 216);
+  width: 100%;
 }
 
 .img{
@@ -88,11 +89,11 @@ header a{
 }
 
 .learn .text{
-  width: 40%;
+  width: 32%;
 }
 
 .learntext{
-  width: 80%;
+  width: 100%;
   padding-left: 1rem;
 }
 
@@ -101,13 +102,13 @@ img {
 }
 
 .learn h1{
-  font-size: 2.25rem;
+  font-size: 2.13rem;
   font-weight: bold;
   padding-bottom: 1rem;
 }
 
 .learn p{
-  font-size: 1.5rem;
+  font-size: 1.13rem;
   padding: 1rem 0rem 2rem 0rem;
 }
 
@@ -132,14 +133,10 @@ img {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 875px){
+@media only screen and (max-width: 768px){
   .learn{
     display: flex;
     flex-direction: column;
-  }
-
-  .text{
-    width: 100%;
   }
 
   .img{
@@ -149,12 +146,17 @@ img {
 
   .learn .text{
     padding: 2rem 1rem 2rem 1rem;
-    width: 90%;
+    width: 80%;
   }
 
-  .learntext p{
-    padding-top: 2rem;
+  .learn p{
+    padding-top: 1rem;
     padding-bottom: 1.2rem;
+    font-size:1rem;
+  }
+
+  .learn h1{
+    font-size: 2rem;
   }
 
 }
@@ -229,13 +231,13 @@ img {
   background-color: rgb(208 211 216);
 }
 
-@media only screen and (min-width: 875px) {
+@media only screen and (min-width: 768px) {
   .mobilepic{
     display: none;
   }
 }
 
-@media only screen and (max-width: 875px){
+@media only screen and (max-width: 768px){
 
   .info .img{
     display: none;
@@ -310,13 +312,13 @@ img {
   justify-content: center;
 }
 
-@media only screen and (min-width: 875px) {
+@media only screen and (min-width: 768px) {
   .mobiletitles{
     display: none;
   }
 }
 
-@media only screen and (max-width: 875px){
+@media only screen and (max-width: 768px){
   .line{
     display: none;
   }
@@ -330,6 +332,8 @@ img {
   .mobiletitles{
     display: flex;
     flex-direction: column;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .mobiletitles a{
@@ -341,6 +345,8 @@ img {
     font-weight: bold;
     text-align: left;
   }
+
+
 }
 
 
@@ -389,7 +395,7 @@ img {
   text-align: left;
 }
 
-@media only screen and (max-width: 875px){
+@media only screen and (max-width: 768px){
   .thesiscontainer h2{
     display: none;
   }
@@ -435,7 +441,7 @@ footer a{
   padding: 0rem 0.5rem;
 }
 
-@media only screen and (max-width: 875px){
+@media only screen and (max-width: 768px){
   ul{
     display: none;
   }
