@@ -107,6 +107,12 @@ img {
   padding-bottom: 1rem;
 }
 
+@media only screen and (min-width: 1000px) {
+  .learn h1{
+    font-size: 2.5rem;
+  }
+}
+
 .learn p{
   font-size: 1.13rem;
   padding: 1rem 0rem 2rem 0rem;
@@ -171,7 +177,7 @@ img {
   padding-bottom: 2rem;
 }
 
-.practicetext h1{
+.practicetext h2{
   font-size: 2rem;
   font-weight: bold;
 }
@@ -275,7 +281,7 @@ img {
   padding-bottom: 1rem;
 }
 
-.startlearning h1{
+.startlearning h2{
   font-size: 2rem;
   font-weight: bold;
   padding-top: 2rem;
@@ -362,7 +368,7 @@ img {
   display: flex;
 }
 
-.thesis h1{
+.thesis h2{
   font-size: 2rem;
   font-weight: bold;
   padding-top: 2rem;
